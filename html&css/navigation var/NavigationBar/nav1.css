@@ -1,0 +1,36 @@
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 150px;
+  background-color: pink;
+  height: 100vh;
+  position: fixed;
+
+
+}
+
+li a{
+  display: block;
+  color:black;
+  padding:8px 16px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+li a:hover{
+  background-color: black;
+  color: white;
+}
+
+.active{
+  background-color: green;
+  color:white;
+}
+
+.div1{
+  margin-left:200px;
+  overflow: auto;
+  background-color: tomato;
+}
